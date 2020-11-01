@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	max-width: 100%
+}
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    padding-right: 50px;
+}
+h2{
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+p{
+    font-weight: 400;
+    line-height: 2.5;
+}
+span{}
+.box{
+	float: 0 0 auto;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	padding: 70px 0px;
+}
+/****banner****/
+.bttn{
+    display: inline-block;
+    background: #21B573;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+}
+.bttn:hover{
+}
+.banner{
+    background: #F0FFF0;
+}
+.logo{
+    width: 20%;
+}
+.logo img{}
+header{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+header nav{
+    width: 80%;
+}
+header nav ul{
+    justify-content: flex-end;
+    display: flex;
+}
+header nav ul li{}
+header nav ul li a{
+    padding: 10px 25px;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+}
+header nav ul li a:hover{
+    background: #21B573;
+    border-radius: 30px;
+    color: white;
+}
+/****first sector****/
+.text{
+    width: 50%;
+    padding-right: 40px;
+}
+.text span{
+    color: #FB6E3D;
+    font-weight: 500;
+}
+.text h1{}
+.text h1 span{
+    color: #21B573 !important;
+    font-weight: inherit !important;
+    font-size: inherit;
+}
+.text p{
+    padding: 25px 0px;
+}
+.text a{}
+.text a:hover{}
+.illimage{
+    width: 50%;
+}
+.illimage img{
+    height: 330px;
+}
+/****second sector****/
+.col1{
+    width: 25%;
+    padding: 15px;
+}
+.col1:hover{}
+.col1 .box{
+    text-align: center;
+    background: #F0FFF0;
+    padding: 50px;
+    transition-duration: 0.3s;
+}
+.col1 .box:hover{
+    background: white;
+    box-shadow: -1px 9px 20px 0px #c7c7c7;
+}
+.col1 .box img{
+    height: 140px;
+    padding: 15px 0px;
+}
+.col1 .box h3{}
+.col1 .box p{
+}
+.onln{
+    text-align: center;
+}
+.onln h1{}
+/****third sector****/
+.col2{
+    width: 33.33%;
+    padding: 0px 10px;
+}
+.col2:hover{}
+.col2 .box{
+    background: white;
+    box-shadow: -1px 9px 20px 0px #c7c7c7;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.col2 .box:hover{transform: scale(1.1);}
+.col2 .box img{
+    padding-bottom: 20px;
+}
+.col2 .box h3{}
+.col2 .box p{
+    padding-bottom: 10px;
+}
+.col2 .box a{}
+.col2 .box a:hover{}
+.col2 .box div{
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.col2 .box div div{
+    display: flex;
+}
+.col2 .box div div img{
+    height: 40px;
+}
+.col2 .box div div span{
+}
+.date img{padding-right: 5px;}
+.date span{}
+.seats img{
+    padding-right: 5px;
+}
+.seats span{}
+/****testimonial****/
+.user{
+    padding-left: 100px;
+}
+.user img{
+    height: 150px;
+}
+.test{
+    width: 75%;
+    padding-right: 100px;
+    padding: 30px 0px;
+}
+.test p{
+    line-height: 2.0;
+    padding-left: 50px;
+    text-align: justify;
+}
+/****footer****/
+footer{
+    background: #282531;
+}
+.col3-1{
+    width: 40%;
+}
+.col3-1 .box{
+    padding-right: 100px;
+}
+.col3-1 .box p{
+    line-height: 1.5;
+    color: white;
+}
+.col3-2{
+    width: 20%;
+}
+.col3-2 .box{}
+.col3-2 .box p{}
+.col3-2 .box ul{}
+.col3-2 .box ul li{}
+.col3-2 .box ul li strong{
+    color: white;
+    font-weight: 700;
+}
+.col3-2 .box ul li a{
+    color: white;
+}
+.col3-2 .box ul li a:hover{
+    color: #21B573;
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+/*****Sign up*******/
+/*** Signup css ***/
+
+.signup{
+    padding: 60px;
+    color: white;
+    margin-top: 100px;
+    width: 600px;
+    /* margin: auto; */
+    margin-bottom: 200px;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-right: auto;
+    background: #F0FFF0;
+    box-shadow:  16px 16px 32px #c2cfc2, 
+             -16px -16px 32px #ffffff;
+}
+.signup h1{
+    color: #21B573;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.signup form{}
+.signup form label{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: black;
+}
+.signup form input{
+    outline: none;
+    border: 2px solid;
+}
+.signup form input:focus{
+    border: 2px solid #21b573;
+}
+.signup form input[type="name"], input[type="email"], textarea, input[type="password"]{
+    display: block;
+    padding: 5px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.signup form input[type="email"]{
+}
+.signup form {
+}
+.signup form input[type="skills"]{}
+.signup form {
+}
+.signup form input[type="radio"]{}
+.signup form input[type="checkbox"]{}
+.signup form button{
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #21B573;
+    border-width: 1px;
+    color: white;
+    border-color: #21B573;
+    font-weight: 500;
+}
+.signup form button:hover{
+	color: black;
+	background: white;
+}
+.signup form textarea{
+    border: 2px solid #000000;
+}
+.signup form textarea:focus{
+    border: 2px solid #21b573;
+}
+.signup span{
+    display: block;
+    margin: 10px 0px;
+    color: black;
+}
+.signup a{
+    text-decoration: underline;
+    color: black;
+}
+.signup a:hover{
+    color: #21B573;
+}
+
+
+
+
+
+
+
