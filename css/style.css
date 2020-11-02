@@ -27,7 +27,7 @@ img{
     max-width: 100%
 }
 h1{
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 700;
     padding-right: 50px;
 }
@@ -105,8 +105,11 @@ header nav ul li a:hover{
 .text span{
     color: #FB6E3D;
     font-weight: 500;
+    font-size: 22px;
 }
-.text h1{}
+.text h1{
+    font-size: 60px;
+}
 .text h1 span{
     color: #21B573 !important;
     font-weight: inherit !important;
@@ -245,7 +248,8 @@ footer{
     color: white;
     font-size: 16px;
     font-weight: 300;
-    padding: 30px 0px;
+    /* padding-top: 0px; */
+    padding-bottom: 30px;
 }
 /*****Sign up*******/
 /*** Signup css ***/
