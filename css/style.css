@@ -30,16 +30,20 @@ h1{
     font-size: 40px;
     font-weight: 700;
     padding-right: 50px;
+    line-height: 1.1;
+    color: #383838;
 }
 h2{
 }
 h3{
     font-size: 20px;
     font-weight: 600;
+    color: #383838;
 }
 p{
     font-weight: 400;
-    line-height: 2.5;
+    line-height: 2.0;
+    color: #383838;
 }
 span{}
 .box{
@@ -47,7 +51,7 @@ span{}
 }
 .container{
     max-width: 1200px;
-        min-width: 900px;
+    min-width: 900px;
     margin: auto;
     padding: 70px 0px;
 }
@@ -58,9 +62,10 @@ span{}
     border-radius: 30px;
     color: white;
     padding: 10px 20px;
+    border: 1px solid #21B573;
+    font-size: 15px;
 }
-.bttn:hover{
-}
+.bttn:hover{background: inherit;color: #383838;border: 1px solid #21B573;}
 .banner{
     background: #F0FFF0;
 }
@@ -87,9 +92,9 @@ header nav ul{
 header nav ul li{}
 header nav ul li a{
     padding: 10px 25px;
-    color: black;
     font-size: 17px;
     font-weight: 500;
+    color: #383838;
     display: inline-block;
 }
 header nav ul li a:hover{
@@ -106,6 +111,8 @@ header nav ul li a:hover{
     color: #FB6E3D;
     font-weight: 500;
     font-size: 22px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 .text h1{
     font-size: 60px;
@@ -116,7 +123,8 @@ header nav ul li a:hover{
     font-size: inherit;
 }
 .text p{
-    padding: 25px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .text a{}
 .text a:hover{}
@@ -137,10 +145,11 @@ header nav ul li a:hover{
     background: #F0FFF0;
     padding: 50px;
     transition-duration: 0.3s;
+    border-radius: 6px;
 }
 .col1 .box:hover{
     background: white;
-    box-shadow: -1px 9px 20px 0px #c7c7c7;
+    box-shadow: -1px 9px 10px 0px #c7c7c7;
 }
 .col1 .box img{
     height: 140px;
@@ -161,12 +170,12 @@ header nav ul li a:hover{
 .col2:hover{}
 .col2 .box{
     background: white;
-    box-shadow: -1px 9px 20px 0px #c7c7c7;
+    box-shadow: -1px 9px 10px 0px #c7c7c7;
     padding: 20px;
     border-radius: 10px;
     transition-duration: 0.3s;
 }
-.col2 .box:hover{transform: scale(1.1);}
+.col2 .box:hover{transform: scale(1.02);}
 .col2 .box img{
     padding-bottom: 20px;
 }
@@ -179,15 +188,16 @@ header nav ul li a:hover{
 .col2 .box div{
     justify-content: space-between;
     padding-top: 15px;
+    opacity: 0.9;
+    /* align-items: stretch; */
 }
 .col2 .box div div{
     display: flex;
 }
 .col2 .box div div img{
-    width: 25px;
+    width: 20px;
 }
-.col2 .box div div span{
-}
+.col2 .box div div span{font-size: 12px;}
 .date img{padding-right: 5px;}
 .date span{}
 .seats img{
@@ -215,6 +225,9 @@ header nav ul li a:hover{
 footer{
     background: #282531;
 }
+footer .container{
+    padding: 40px 0px;
+}
 .col3-1{
     width: 40%;
     padding-left: 10px;
@@ -223,8 +236,9 @@ footer{
     padding-right: 100px;
 }
 .col3-1 .box p{
-    line-height: 1.5;
+    line-height: 2.0;
     color: white;
+    font-size: 14px;
 }
 .col3-2{
     width: 20%;
@@ -236,9 +250,13 @@ footer{
 .col3-2 .box ul li strong{
     color: white;
     font-weight: 700;
+    font-size: 14px;
 }
 .col3-2 .box ul li a{
     color: white;
+    font-size: 13px;
+    padding-top: 2px;
+    display: inline-block;
 }
 .col3-2 .box ul li a:hover{
     color: #21B573;
@@ -246,10 +264,11 @@ footer{
 .copy{
     text-align: center;
     color: white;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 11px;
+    font-weight: 500;
     /* padding-top: 0px; */
-    padding-bottom: 30px;
+    opacity: 0.9;
+    padding-bottom: 20px;
 }
 /*****Sign up*******/
 /*** Signup css ***/
